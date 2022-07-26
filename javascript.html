@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<script>
+    x = "sj";
+    document.write(x + "<br>");
+
+    y = 5;
+    z = "5";
+    document.write("<h3>Equality</h3>")
+    document.write((y == z) + "<br>");
+    document.write((y === z) + "<br>");
+
+    document.write("<h3>If statement inline</h3>");
+    visitor = "PRE";
+    greeting = (visitor == "PRES") ? "Presedent" : "Dear";
+    document.write(greeting);
+
+    document.write("<h3>Cofirme with alert</h3>");
+    // var r = confirm("please confirm");
+    // if (r == true) {
+    //     alert("ok");
+    // } else {
+    //     alert("NOP");
+    // }
+
+    document.write("<h3>propmt to get input</h3>");
+    var name=prompt("enter name");
+if ((name!=null)&&(name!==""))
+{
+    document.write("hello"+name);
+}
+
+</script>
+</body>
+</html>
